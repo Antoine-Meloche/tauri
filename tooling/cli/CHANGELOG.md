@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.2.2]
+
+- Use older icon types to work around a macOS bug resulting in corrupted 16x16px and 32x32px icons in bundled apps.
+  - [2d545eff](https://www.github.com/tauri-apps/tauri/commit/2d545eff58734ec70f23f11a429d35435cdf090e) fix(cli): corrupted icons in bundled macOS icons ([#5698](https://www.github.com/tauri-apps/tauri/pull/5698)) on 2022-11-28
+- Add `--no-dev-server` flag to the cli to disable the dev server for static files in dev mode.
+  - [c0989848](https://www.github.com/tauri-apps/tauri/commit/c0989848b9421fb19070ae652a89a5d5675deab8) feat(cli/dev): add `--no-dev-server`, ref [#5708](https://www.github.com/tauri-apps/tauri/pull/5708) ([#5722](https://www.github.com/tauri-apps/tauri/pull/5722)) on 2022-11-30
+
 ## \[1.2.1]
 
 - Fixes injection of Cargo features defined in the configuration file.
